@@ -1,0 +1,63 @@
+
+/* Colors */
+:root {
+
+/*Primary */
+--Strong-cyan: hsl(172, 67%, 45%);
+/* Neutral */
+--Darkest-cyan: hsl(183, 100%, 15%);
+--Darker-cyan: hsl(186, 14%, 43%);
+--Dark-cyan: hsl(184, 14%, 56%);
+--Light-cyan: hsl(185, 41%, 84%);
+--Lighter-cyan: hsl(189, 41%, 97%);
+--White: hsl(0, 0%, 100%);
+}
+
+
+html {
+  font-size: 150%;
+  font-weight: 400, 500, 700;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  display: grid;
+  background-color: var(--Light-cyan);
+  justify-content: center;
+}
+
+input {
+  text-align: right;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+.container {
+  font-weight: 700;
+  color: var(--Darker-cyan);
+}
+
+.logo {
+
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  background-color: var(--White);
+}
+
+.display_field {
+  grid-column-start:1;
+  grid-column-end: 3; 
+}
+
+#bill {
+  background-color: var(--Lighter-cyan);
+}
+
+#num_people {
+  background-color: var(--Lighter-cyan)
+}
